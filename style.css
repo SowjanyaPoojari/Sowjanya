@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+header {
+    background: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0') no-repeat center center/cover;
+    color: white;
+    padding: 100px 0;
+    position: relative;
+}
+
+header h1 {
+    font-size: 50px;
+    margin: 0;
+}
+
+.subtext {
+    font-size: 20px;
+    font-style: italic;
+}
+
+.social-icons a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+}
+
+.image {
+    width: 30%;
+    height: 200px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-shadow: 1px 1px 5px black;
+}
+
+/* Custom Background Images from Chrome URLs */
+.popular {
+    background: url('https://images.unsplash.com/photo-1535914254981-b5012eebbd15') no-repeat center center/cover;
+}
+
+.latest {
+    background: url('https://images.unsplash.com/photo-1497366858526-46e7afdc6ddb') no-repeat center center/cover;
+}
+
+.more {
+    background: url('https://images.unsplash.com/photo-1470770903676-69b98201ea1c') no-repeat center center/cover;
+}
+
+footer {
+    background: #0073e6;
+    padding: 20px;
+    color: white;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
